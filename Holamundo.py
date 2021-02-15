@@ -54,12 +54,27 @@
 # if numero>0:
 #     if numero>=18 and numero<60:
 #         input("Es mayor de edad")
-#     elif numero>=60:
+#     elif numero>=60 and numero<105:
 #         input("Es viejo")
+#     elif numero>=105:
+#         input("ERROR")
 #     else:
 #         input("Es menor de edad")
 # elif numero==0:
 #     print("Numero es cero")
 # else:
 #     input("El numero debe ser positivo")
+
+
+#   a=int(input("a: "))
+#   b=int(input("b: "))
+#   if a%2==0 and b%2==0:
+#       print("Ambos numeros son pares")
+#   elif (a%2==0 and b%2!=0):
+#       print(f"Par: {a}")
+#   elif a%2!=0 and b%2==0:
+#       print(f"Par: {b}")
+#   else:
+#       print("Ningún número es par")
+
 
