@@ -66,18 +66,6 @@
 #     input("El numero debe ser positivo")
 
 
-#   a=int(input("a: "))
-#   b=int(input("b: "))
-#   if a%2==0 and b%2==0:
-#       print("Ambos numeros son pares")
-#   elif (a%2==0 and b%2!=0):
-#       print(f"Par: {a}")
-#   elif a%2!=0 and b%2==0:
-#       print(f"Par: {b}")
-#   else:
-#       print("Ningún número es par")
-
-
 # #Determinar si es una vocal o no
 # letra=input("Ingrese una letra: ").lower() #Transforma la mayuscula a minuscula .... upper es para mayuscula a minuscula
 # if letra=='a' or letra=='e' or letra=='i' or letra=='o' or letra=='u':
@@ -126,4 +114,37 @@
 #     print(f"Saldo actual: {inicial}")
 
 
-#Listas
+# Listas
+# lista=[2,3,8,5,3,7,4,-1,-3,0]
+# print(lista[4]) #Un elemento
+# print(lista[0:4]) #Inicio->Fin
+# lista.sort(reverse=True) #ordenar descendente
+# lista.sort() #sirve para ordenar
+# print(lista)
+
+
+a=int(input("a: "))
+b=int(input("b: "))
+lista=[a,b]
+if a in lista:
+    if a==0 and b==0:
+        print("Cero es neutro")
+    elif a==0 and b!=0:
+        if b%2==0:
+            print(f"Par: {b}")
+        else:
+            print("Ninguno es impar")
+    elif a!=0 and b==0:
+        if a%2==0:
+            print(f"Par: {a}")
+        else:
+            print("Ninguno es impar")
+    elif a!=0 and b!=0:
+        if a%2==0 and b%2==0:
+            print("Ambos numeros son pares")
+        elif (a%2==0 and b%2!=0):
+            print(f"Par: {a}")
+        elif a%2!=0 and b%2==0:
+            print(f"Par: {b}")
+        else:   
+            print("Ningún número es par")
