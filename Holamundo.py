@@ -79,10 +79,51 @@
 
 
 # #Determinar si es una vocal o no
-# letra=input("Ingrese una letra: ").lower() #Transforma la mayuscula a minuscula
+# letra=input("Ingrese una letra: ").lower() #Transforma la mayuscula a minuscula .... upper es para mayuscula a minuscula
 # if letra=='a' or letra=='e' or letra=='i' or letra=='o' or letra=='u':
 #     print("Es una vocal")
 # else:
 #     print("NO es una vocal")
 
 
+# #Calculadora  s r m d
+# letra = input("Ingrese la operación: ").lower()
+# if letra=='s':
+#     s1=int(input("1er número: "))
+#     s2=int(input("2do número: "))
+#     print(s1+s2)
+# elif letra=='r':
+#     r1=int(input("1er número: "))
+#     r2=int(input("2do número: "))
+#     print(r1-r2)
+# elif letra=='m':
+#     m1=int(input("1er número: "))
+#     m2=int(input("2do número: "))
+#     print(m1*m2)
+# elif letra=='d':
+#     d1=int(input("1er número: "))
+#     d2=int(input("2do número: "))
+#     print(d1/d2)
+# else:
+#     print("Ingrese un caracter correcto")
+
+
+# #Menu de opciones
+# inicial=100
+# letra=int(input("Ingrese la opción: "))
+# if letra==1:
+#     adicional=int(input("Monto adicional: "))
+#     adicional+=inicial
+#     print(f"Saldo actual: {adicional}")
+# elif letra==2:
+#     retiro=int(input("Monto a retirar: "))
+#     if retiro>inicial:
+#         print("Excede al saldo inicial")
+#     else:
+#         retiro=inicial-retiro
+#         print(f"Saldo actual: {retiro}")
+# elif letra==3:
+#     print(f"Saldo actual: {inicial}")
+
+
+#Listas
