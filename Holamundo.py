@@ -123,28 +123,28 @@
 # print(lista)
 
 
-a=int(input("a: "))
-b=int(input("b: "))
-lista=[a,b]
-if a in lista:
-    if a==0 and b==0:
-        print("Cero es neutro")
-    elif a==0 and b!=0:
-        if b%2==0:
-            print(f"Par: {b}")
-        else:
-            print("Ninguno es impar")
-    elif a!=0 and b==0:
-        if a%2==0:
-            print(f"Par: {a}")
-        else:
-            print("Ninguno es impar")
-    elif a!=0 and b!=0:
-        if a%2==0 and b%2==0:
-            print("Ambos numeros son pares")
-        elif (a%2==0 and b%2!=0):
-            print(f"Par: {a}")
-        elif a%2!=0 and b%2==0:
-            print(f"Par: {b}")
-        else:   
-            print("Ningún número es par")
+# a=int(input("a: "))
+# b=int(input("b: "))
+# lista=[a,b]
+# if a in lista:
+#     if a==0 and b==0:
+#         print("Cero es neutro")
+#     elif a==0 and b!=0:
+#         if b%2==0:
+#             print(f"Par: {b}")
+#         else:
+#             print("Ninguno es impar")
+#     elif a!=0 and b==0:
+#         if a%2==0:
+#             print(f"Par: {a}")
+#         else:
+#             print("Ninguno es impar")
+#     elif a!=0 and b!=0:
+#         if a%2==0 and b%2==0:
+#             print("Ambos numeros son pares")
+#         elif (a%2==0 and b%2!=0):
+#             print(f"Par: {a}")
+#         elif a%2!=0 and b%2==0:
+#             print(f"Par: {b}")
+#         else:   
+#             print("Ningún número es par")
