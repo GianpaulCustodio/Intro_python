@@ -166,3 +166,34 @@
 # print(lista)
 
 
+#Ejercicio Listas
+# primera_lista=["Gianpaul",12,14,16,"Spiderman"]
+# segunda_lista=["Spike",11,14,12,"Hulk"]
+#item1
+#lista1=print(f"Primera lista: {primera_lista}")
+#lista2=print(f"Segunda lista: {segunda_lista}")
+#-----------------------------------------------
+#item2 -Gp,16,spiderman
+# l1=list(set(primera_lista))
+# l2=list(set(segunda_lista))
+# c1=set(primera_lista)
+# c2=set(segunda_lista)
+# item2=c1-c2
+# a=list(item2)
+# print(a)
+#-----------------------------------------------
+#item3 -Spike,11,Hulk
+# c1=set(primera_lista)
+# c2=set(segunda_lista)
+# item2=c2-c1
+# a=list(item2)
+# print(a)
+#-----------------------------------------------
+#item4
+# c1=set(primera_lista)
+# c2=set(segunda_lista)
+# item2=c1|c2
+# a=list(item2)
+# print(a)
+
+
