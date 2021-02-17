@@ -148,3 +148,21 @@
 #             print(f"Par: {b}")
 #         else:   
 #             print("Ningún número es par")
+
+
+# #Ingreso 5 elementos y elimino repetidos
+# a=int(input("Primer número: "))
+# b=int(input("Segundo número: "))
+# c=int(input("Tercer número: "))
+# d=int(input("Cuarto número: "))
+# e=int(input("Quinto número: "))
+# lista=[a,b,c,d,e]
+# # #1era forma
+# # conjunto=set(lista) #Se crea el conjunto
+# # lista=conjunto
+# #.........................................
+# #2da forma
+# lista=list(set(lista))
+# print(lista)
+
+
