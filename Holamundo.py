@@ -197,3 +197,16 @@
 # print(a)
 
 
+#While
+# import math
+# n=int(input("Ingrese un número: "))
+# while n<0:
+#     print("Ingrese un número positivo: ")
+#     n=int(input("Ingrese un número: "))
+# print(f"Respuesta es: {(math.sqrt(n)):.2f}")
+
+#imprimir 10 "Hola Mundo"
+i=0
+while i<10:
+    print("Hola Mundo")
+    i+=1
